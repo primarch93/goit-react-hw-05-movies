@@ -6,7 +6,7 @@ export const ListItem = styled(Link)`
   padding: 5px;
   color: rgba(0, 0, 0);
   text-decoration: none;
-
+border-radius: 20px;
 
 
   &:hover,
@@ -20,5 +20,6 @@ export const ListItem = styled(Link)`
 export const List = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
+  
 `;
